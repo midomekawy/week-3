@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: #607d8b;
+        position: relative;
+        box-shadow: #000 0 -5px 0 inset;
+      }
+      div::before {
+        content: "";
+        position: absolute;
+        left: 14.5%;
+        top: -35.2%;
+        width: 70.5%;
+        height: 70.5%;
+        background-color: #000;
+        transform: rotate(45deg);
+        box-shadow: rgb(255 255 255) -5px -5px 0 inset;
+      }
+      div::after {
+        padding: 4%;
+        content: "Elzero";
+        color: white;
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

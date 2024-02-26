@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+
+        <div class="social-login">
+            <a href="login.php?provider=facebook" class="facebook-btn">Login to Facebook</a>
+            <a href="login.php?provider=twitter" class="twitter-btn">Login to Twitter</a>
+            <br>
+            <span class="or">Or</span>
+
+        </div>
+
+        <form>
+
+            <input type="text" id="username"  placeholder="Username" required>
+
+
+            <input type="password" id="password"  placeholder="Password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p>Not a member ? <span>Sign up now!</span></p>
+    </div>
+</body>
+</html>

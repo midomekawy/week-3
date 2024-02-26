@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      div :not(h3, div:nth-child(6n + 1)) {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>Testing</div>
+      <div>Elzero</div>
+      <div>Elzero</div>
+      <h3>Testing</h3>
+      <p>Elzero</p>
+      <h3>Testing</h3>
+      <div>Testing</div>
+    </div>
+  </body>
+</html>
